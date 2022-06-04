@@ -102,6 +102,7 @@ public class AccountVerification extends AppCompatActivity {
                         userRef.child("isVerified").setValue(true);
                         //uploadImage();
                         startActivity(new Intent(AccountVerification.this, AccountActivity.class));
+                        finish();
                     }
                 },3000);
             }

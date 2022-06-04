@@ -558,7 +558,7 @@
                     android:textStyle="bold"/>
 
                 <com.google.android.material.textfield.TextInputLayout
-                    android:layout_width="150dp"
+                    android:layout_width="140dp"
                     android:layout_height="50dp"
                     android:padding="0dp"
                     android:hint="@string/select"
@@ -571,7 +571,7 @@
                         android:fontFamily="@font/poppins_regular"
                         android:inputType="none"
                         android:textColor="@color/dark_blue1"
-                        android:textSize="14sp" />
+                        android:textSize="12sp" />
                 </com.google.android.material.textfield.TextInputLayout>
 
             </LinearLayout>
@@ -580,7 +580,7 @@
                 android:id="@+id/ll2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="40dp"
+                android:layout_marginEnd="30dp"
                 android:layout_marginTop="10dp"
                 android:orientation="vertical"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -595,7 +595,7 @@
                     android:textStyle="bold"/>
 
                 <com.google.android.material.textfield.TextInputLayout
-                    android:layout_width="150dp"
+                    android:layout_width="140dp"
                     android:layout_height="50dp"
                     android:hint="@string/select"
                     android:textColorHint="@color/dark_blue1"
@@ -607,7 +607,7 @@
                         android:fontFamily="@font/poppins_regular"
                         android:inputType="none"
                         android:textColor="@color/dark_blue1"
-                        android:textSize="14sp" />
+                        android:textSize="12sp" />
                 </com.google.android.material.textfield.TextInputLayout>
             </LinearLayout>
 
@@ -666,7 +666,7 @@
 
                 <com.google.android.material.textfield.TextInputLayout
                     style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
-                    android:layout_width="150dp"
+                    android:layout_width="140dp"
                     android:layout_height="50dp"
                     android:backgroundTint="@color/dark_blue1"
                     android:hint="@string/select"
@@ -679,7 +679,7 @@
                         android:fontFamily="@font/poppins_regular"
                         android:inputType="none"
                         android:textColor="@color/dark_blue1"
-                        android:textSize="14sp" />
+                        android:textSize="12sp" />
                 </com.google.android.material.textfield.TextInputLayout>
             </LinearLayout>
 
@@ -687,7 +687,7 @@
                 android:id="@+id/ll5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="40dp"
+                android:layout_marginEnd="30dp"
                 android:layout_marginTop="10dp"
                 android:orientation="vertical"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -702,7 +702,7 @@
                     android:textStyle="bold"/>
 
                 <com.google.android.material.textfield.TextInputLayout
-                    android:layout_width="150dp"
+                    android:layout_width="140dp"
                     android:layout_height="50dp"
                     android:hint="@string/select"
                     android:textColorHint="@color/dark_blue1"
@@ -714,7 +714,7 @@
                         android:fontFamily="@font/poppins_regular"
                         android:inputType="none"
                         android:textColor="@color/dark_blue1"
-                        android:textSize="14sp" />
+                        android:textSize="12sp" />
                 </com.google.android.material.textfield.TextInputLayout>
 
             </LinearLayout>
@@ -739,7 +739,7 @@
                     android:textStyle="bold"/>
 
                 <com.google.android.material.textfield.TextInputLayout
-                    android:layout_width="150dp"
+                    android:layout_width="140dp"
                     android:layout_height="50dp"
                     android:hint="@string/select"
                     android:textColorHint="@color/dark_blue1"
@@ -751,7 +751,7 @@
                         android:fontFamily="@font/poppins_regular"
                         android:inputType="none"
                         android:textColor="@color/dark_blue1"
-                        android:textSize="14sp" />
+                        android:textSize="12sp" />
                 </com.google.android.material.textfield.TextInputLayout>
             </LinearLayout>
 
@@ -759,7 +759,7 @@
                 android:id="@+id/ll7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="40dp"
+                android:layout_marginEnd="30dp"
                 android:layout_marginTop="10dp"
                 android:orientation="vertical"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -774,7 +774,7 @@
                     android:textStyle="bold"/>
 
                 <com.google.android.material.textfield.TextInputLayout
-                    android:layout_width="150dp"
+                    android:layout_width="140dp"
                     android:layout_height="50dp"
                     android:hint="@string/select"
                     android:textColorHint="@color/dark_blue1"
@@ -786,7 +786,7 @@
                         android:fontFamily="@font/poppins_regular"
                         android:inputType="none"
                         android:textColor="@color/dark_blue1"
-                        android:textSize="14sp" />
+                        android:textSize="12sp" />
                 </com.google.android.material.textfield.TextInputLayout>
 
             </LinearLayout>

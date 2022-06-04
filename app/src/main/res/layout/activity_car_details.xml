@@ -401,6 +401,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/poppins_regular"
                         android:textColor="@color/dark_blue1"
+                        android:justificationMode="inter_word"
                         android:text="No description"/>
 
                 </LinearLayout>
@@ -506,6 +507,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="20dp"
+                        android:layout_marginLeft="40dp"
                         android:orientation="horizontal">
 
                         <TextView
@@ -542,9 +544,9 @@
 
                     <Button
                         android:id="@+id/bookBtn"
-                        android:layout_width="178dp"
+                        android:layout_width="160dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
                         android:fontFamily="@font/poppins_regular"
                         android:text="Book now"
                         android:textStyle="bold"

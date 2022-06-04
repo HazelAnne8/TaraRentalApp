@@ -62,7 +62,8 @@ public class HostCar extends AppCompatActivity implements View.OnClickListener{
     String[] transmissionArr = {"Manual","Automatic","CVT"};
     String[] drivetrainArr = {"AWD","4WD","FWD","RWD"};
     String[] seatArr = {"2 Seater","3 Seater","4 Seater","5 Seater","6 Seater"};
-    String[] typeArr = {"Sedan","Coupe","Sport car","Station wagon","Hatchback","Convertible","SUV","Minivan"};
+    String[] typeArr = {"Micro","Sedan","Hatchback","Universal","Liftback","Coupe","Cabriolet","Roadster","Targa","Limousine","Muscle Car",
+                        "Sport Car","Super Car","SUV","Crossover","Pickup","Van","Minivan","Minibus","Camper Van"};
     String[] fuelTypeArr = {"Kerosene","Solar Oil","Diesel Oil","Fuel Oil","Biodiesel","Gasoline"};
     String[] mileageArr = {"50-100K km","100-150K km","150-200K km","200-250K km","250-300K km"};
 

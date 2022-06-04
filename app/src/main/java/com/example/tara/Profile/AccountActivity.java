@@ -120,8 +120,14 @@ public class  AccountActivity extends AppCompatActivity {
                     User user =  snapshot.getValue(User.class);
                     assert user != null;
                     if(!user.imageUrl.isEmpty()) {
-                        String imageUrl = snapshot.child("imageUrl").getValue().toString();
-                        Glide.with(AccountActivity.this).load(imageUrl).into(ivEditPhoto);
+
+                        try{
+                            String imageUrl = snapshot.child("imageUrl").getValue().toString();
+                            Glide.with(AccountActivity.this).load(imageUrl).into(ivEditPhoto);
+                        }catch (Exception e){
+                            e.printStackTrace();
+
+                        }
                     }
                     else
                         ivEditPhoto.setImageResource(R.drawable.ic_profile_image);
