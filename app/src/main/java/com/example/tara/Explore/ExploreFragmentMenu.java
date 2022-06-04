@@ -158,6 +158,7 @@ public class ExploreFragmentMenu extends Fragment implements RecyclerViewInterfa
     @Override
     public void onItemClick(int position) {
         int index  = 0;
+
         if(!isFiltered){
             Car list1 = list.get(position);
             carId = list1.getCarId();
@@ -167,6 +168,28 @@ public class ExploreFragmentMenu extends Fragment implements RecyclerViewInterfa
             carId = newList.getCarId() ;
             carHostId = newList.getUserId();
         }
+
+
+
+//        if(!isFiltered){
+//            for(DataSnapshot childSnapshot : dataSnapshot.getChildren()){
+//                if(index == position){
+//                    DatabaseReference currentReference = childSnapshot.getRef();
+//                    carId = currentReference.getKey();
+//                }
+//                for(DataSnapshot childSnapshot2 : childSnapshot.getChildren()){
+//                    if(index == position){
+//                        DatabaseReference ref2 = childSnapshot2.getRef();
+//                        carHostId = ref2.getKey();
+//                    }
+//                }
+//                index++;
+//            }
+//        }else{
+//            Car newList = filteredList.get(position);
+//            carId = newList.getCarId();
+//            carHostId = newList.getUserId();
+//        }
 
         Intent intent = new Intent(getContext(), CarDetails.class);
         intent.putExtra("carId", carId);
